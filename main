@@ -1,0 +1,21 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+        <script type="text/javascript" languaje="javascript" src="newjavascript.js"></script>
+    </head>
+    <body>
+        <select id="ciudad" onchange="seleccionCiudad();" >
+            <option>Click to Select a City</option>
+            <option>Zaragoza</option>
+            <option>Madrid</option>
+            <option>Roma</option>
+            <option>Honduras</option>
+            <option>New york</option>
+            <option>Bangladess</option>
+            <option>Moscu</option>
+        </select>    
+    </body>
+</html>
