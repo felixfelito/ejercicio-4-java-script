@@ -1,0 +1,15 @@
+
+arrayCiudad = [];
+function seleccionCiudad()
+{
+    var seleccion = document.getElementById('ciudad').value;
+    if (seleccion === 'Click to Select a City') {
+    } else {
+        arrayCiudad.push(seleccion);
+
+    }
+    for (var i = 0; i < arrayCiudad.lenght; i++) {
+        alert(arrayCiudad[i]);
+    }
+
+}
