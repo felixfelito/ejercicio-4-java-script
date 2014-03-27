@@ -1,4 +1,3 @@
-
 arrayCiudad = [];
 function seleccionCiudad()
 {
@@ -8,7 +7,7 @@ function seleccionCiudad()
         arrayCiudad.push(seleccion);
 
     }
-    for (var i = 0; i < arrayCiudad.lenght; i++) {
+    for (var i = 0; i < arrayCiudad.length; i++) {
         alert(arrayCiudad[i]);
     }
 
